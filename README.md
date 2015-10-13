@@ -1,5 +1,5 @@
 # DreamLime 
-### (Dreamweaver + Sublime)
+### DreamLime (Dreamweaver + Sublime) Sublime 2/3 theme
 Adds the Dreamweaver Color Scheme to Sublime Text 2/3.
 
 This adds support for Dreamweaver's special tag specific highlights.
