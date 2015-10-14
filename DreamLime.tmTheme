@@ -34,9 +34,11 @@
 				<key>lineHighlight</key>
 				<string>#00000012</string>
 				<key>selectionBorder</key>
-				<string>#E996F7</string>
+				<string>#FF2B00</string>
 				<key>selection</key>
-				<string>#BAD6FD</string>
+				<string>#FFE6E6</string>
+				<key>selectionForeground</key>
+				<string>#990000</string>
 				<key>stackGuide</key>
 				<string>#abcdef</string>
 				<key>shadow</key>
@@ -174,7 +176,7 @@
 			<key>name</key>
 			<string>Css: Class Attribute Names</string>
 			<key>scope</key>
-			<string></string>
+			<string>entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1857,7 +1859,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>normal</string>
 				<key>foreground</key>
 				<string>#880000</string>
 			</dict>
@@ -2084,12 +2086,117 @@
 				<string>#880000</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Commented Block</string>
+			<key>scope</key>
+			<string>comment.block.html source.php.embedded.block.html comment.block.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5C5858A3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: codes</string>
+			<key>scope</key>
+			<string>source.js.embedded.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: support class</string>
+			<key>scope</key>
+			<string>source.js.embedded.html support.class.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#990099</string>
+				<key>fontStyle</key>
+				<string>normal</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>XML: entity name tag</string>
+			<key>scope</key>
+			<string>meta.tag.xml entity.name.tag.localname.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>XML: DOctype</string>
+			<key>scope</key>
+			<string>meta.tag.sgml.doctype.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000FF</string>
+				<key>fontStyle</key>
+				<string>normal</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>XML: quoted text</string>
+			<key>scope</key>
+			<string>string.quoted.double.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0F960F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: Other tag end</string>
+			<key>scope</key>
+			<string>meta.tag.other.html punctuation.definition.tag.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0F0F0F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: OTher tag begin</string>
+			<key>scope</key>
+			<string>meta.tag.other.html punctuation.definition.tag.begin.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0F0F0F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: ID attibute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#2F96B4</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>5DD702D0-701E-11E5-A837-0800200C9A66</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.light.dreamlime</string>
+	<string>theme.light.dream_lime</string>
 </dict>
 </plist>
