@@ -2191,6 +2191,61 @@
 				<string>#2F96B4</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Var key</string>
+			<key>scope</key>
+			<string>source.js.embedded.html storage.type.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#135213</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: This key</string>
+			<key>scope</key>
+			<string>source.js.embedded.html variable.language.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#038A3D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: $ sign</string>
+			<key>scope</key>
+			<string>source.js.embedded.html keyword.operator.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Single Quoted string</string>
+			<key>scope</key>
+			<string>source.js.embedded.html string.quoted.single.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#038A3D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Double Quoted String</string>
+			<key>scope</key>
+			<string>source.js.embedded.html string.quoted.double.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#038A3D</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>5DD702D0-701E-11E5-A837-0800200C9A66</string>
